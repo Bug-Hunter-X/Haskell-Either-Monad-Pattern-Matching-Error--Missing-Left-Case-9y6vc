@@ -1,0 +1,1 @@
+This Haskell code attempts to use a pattern match on an `Either` type, but it fails to handle the `Left` case, resulting in a runtime exception if the result is a `Left` value.  The compiler will not catch this error unless you use the `-Wall` flag to enable all warnings.
